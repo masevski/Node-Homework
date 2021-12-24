@@ -1,5 +1,5 @@
 const faker = require('faker')
-let list = []
+const list = []
 for (let i = 0; i < 100; i++) {
     list.push({
         Gender: faker.name.gender(),
